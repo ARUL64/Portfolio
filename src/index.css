@@ -1,0 +1,14 @@
+/* Add cursor styles */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+}
+
+.magnetic-effect {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.parallax-card {
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
